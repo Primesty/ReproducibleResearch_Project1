@@ -140,7 +140,7 @@ stepshist2 + geom_bar(stat = "identity", fill = "blue") +
 
 # Do the mean and median values differ?
 
-# Calculate mean and median number of steps taken each day
+Calculate mean and median number of steps taken each day
 
 ```{r}
 mean_steps2 <- round(mean(totalSteps$total_steps, na.rm = TRUE),2)
